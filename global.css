@@ -448,8 +448,7 @@ footer {
     color: #15fdc0;
 }
 
-
-button.cv {
+a.cv {
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -461,16 +460,17 @@ button.cv {
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.4s ease;
 }
 
-.link_cv {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
+a.cv:hover {
+    background-color: #15fdc0;
+    color: #231f20;
 }
+
 
 button.cv:hover {
     background-color: #15fdc0;
