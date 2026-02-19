@@ -22,8 +22,6 @@ body.contattami {
     margin-left: 0;
 }
 
-/* === HEADER === */
-
 header {
     display: flex;
     flex-direction: column;
@@ -86,7 +84,6 @@ header {
     color: black;
 }
 
-/* === HAMBURGER === */
 
 .hamburger {
     display: none;
@@ -102,7 +99,6 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-/* === HERO === */
 
 .hero {
     flex: 1;
@@ -118,7 +114,6 @@ header {
     padding: 0 0 60px 0;
 }
 
-/* === BUTTON === */
 
 .btn {
     display: flex;
@@ -146,8 +141,6 @@ header {
     background-color: #15fdc0;
     color: black;
 }
-
-/* === CONTAINER + CARDS === */
 
 .container {
     display: flex;
@@ -233,8 +226,6 @@ header {
     color: black;
 }
 
-/* === SIDEBAR === */
-
 .sidebar {
     position: fixed;
     left: 0;
@@ -295,8 +286,6 @@ header {
     color: #231f20;
     transform: rotate(5deg) scale(1.15);
 }
-
-/* === MAIN (contact page) === */
 
 main {
     flex: 1;
@@ -399,8 +388,6 @@ textarea.box {
     transform: translateY(-2px);
 }
 
-/* === BACK BUTTON (contact page) === */
-
 .back_btn {
     display: inline-flex;
     align-items: center;
@@ -425,9 +412,6 @@ textarea.box {
 .back_btn i {
     font-size: 0.9rem;
 }
-
-
-/* === FOOTER === */
 
 footer {
     flex-shrink: 0;
@@ -464,7 +448,6 @@ footer {
     color: #15fdc0;
 }
 
-/* === CV BUTTON === */
 
 button.cv {
     display: flex;
@@ -497,10 +480,6 @@ button.cv:hover {
 button.cv:hover .link_cv {
     color: #231f20;
 }
-
-/* =============================================
-   RESPONSIVE - max-width: 1140px (Tablet)
-   ============================================= */
 
 @media screen and (max-width: 1140px) {
     body {
@@ -557,16 +536,18 @@ button.cv:hover .link_cv {
     }
 }
 
-/* =============================================
-   RESPONSIVE - max-width: 768px (Mobile)
-   ============================================= */
-
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: center;
         padding: 20px 15px 40px;
         gap: 1.5rem;
+    }
+
+    .btn{
+        position: sticky;
+        top: 150px;
+        z-index: 999;
     }
 
     .card {
