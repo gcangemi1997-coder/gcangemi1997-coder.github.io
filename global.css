@@ -205,15 +205,14 @@ main {
   border: 1px solid gray;
   border-radius: 10px;
   transition: all 0.4s ease;
+  z-index: 997;
+  width: 200px;
+  font-size: large;
+  background-color: #231f20;
 }
 .button:hover {
   background-color: #15fdc0;
   color: black;
-}
-.button {
-  width: 200px;
-  font-size: large;
-  background-color: #231f20;
 }
 
 .bio_section {
@@ -333,6 +332,8 @@ main {
 .link_details {
   display: block;
   padding: 10px;
+  margin: 10px;
+  margin-top: auto;
   text-align: center;
   color: #ffffff;
   text-decoration: none;
@@ -343,10 +344,6 @@ main {
 .link_details:hover {
   background-color: #15fdc0;
   color: black;
-}
-.link_details {
-  margin: 10px;
-  margin-top: auto;
 }
 
 .contact_page {
@@ -552,28 +549,23 @@ textarea.box {
 }
 
 a.cv {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  color: #ffffff;
-  text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-}
-a.cv:hover {
-  background-color: #15fdc0;
-  color: black;
-}
-a.cv {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 12px 24px;
   background-color: #231f20;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 10px;
   font-size: 1rem;
   font-weight: 600;
   font-family: "Lato", sans-serif;
+  transition: all 0.4s ease;
+}
+a.cv:hover {
+  background-color: #15fdc0;
+  color: black;
 }
 
 footer {
@@ -665,11 +657,7 @@ footer {
     padding: 20px 15px 40px;
     gap: 1.5rem;
   }
-  .btn {
-    position: sticky;
-    top: 201.36px;
-    z-index: 997;
-  }
+  
   .card {
     width: 100%;
     max-width: 350px;

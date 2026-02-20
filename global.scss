@@ -541,6 +541,10 @@ textarea.box {
   gap: 0.75rem;
 }
 
+.skill{
+  color:$primary_accent ;
+}
+
 .skill_tag {
   background-color: $primary_bg;
   border: 2px solid $primary_accent;
@@ -624,7 +628,6 @@ footer {
     margin-top: 20px;
     width: 100%;
     @include flex_center(column);
-    z-index: 998;
 
     ul {
       max-height: 0;
@@ -666,12 +669,6 @@ footer {
     gap: 1.5rem;
   }
 
-  .btn {
-    position: sticky;
-    top: 201.36px;
-    z-index: 997;
-  }
-
   .card {
     width: 100%;
     max-width: 350px;
@@ -709,5 +706,9 @@ footer {
   .skills_section {
     margin: 15px;
     padding: 20px 15px;
+  }
+
+  .social{
+    z-index: 998;
   }
 }
