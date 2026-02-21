@@ -29,6 +29,38 @@
         #missione { max-width: 900px; margin: 0 auto; padding: 60px 20px; text-align: center; font-size: 30px; line-height: 1.6; }
         #footer { text-align: center; padding: 40px 20px; background: rgba(0,0,0,0.2); }
         #footer p { margin-bottom: 10px; }
+
+        @media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        position: static;
+        width: 80px;
+        max-width: 80px;
+        align-self: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .testata1 {
+        font-size: 60px;
+    }
+
+    .testata2 {
+        font-size: 28px;
+    }
+
+    .info {
+        justify-content: center;
+        padding-right: 0;
+    }
+}
+
+            
+        
     </style>
 </head>
 <body>
