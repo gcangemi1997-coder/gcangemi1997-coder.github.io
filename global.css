@@ -367,7 +367,6 @@ main {
   justify-content: center;
   flex: 1;
   padding: 40px 20px;
-  margin-top: -200px;
   color: #ffffff;
   text-align: center;
 }
@@ -719,12 +718,13 @@ footer {
   }
 
   .back_home {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
   border: 1px solid gray;
   border-radius: 10px;
