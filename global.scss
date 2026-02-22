@@ -355,6 +355,7 @@ main {
   flex: 1;
   padding: 40px 20px;
   margin-top: -200px;
+  padding-top: 200px;
   color: #ffffff;
   text-align: center;
 }
@@ -389,6 +390,7 @@ main {
   display: flex;
   flex-direction: column;
   text-align: left;
+  width: 100%;
 }
 .form_group label {
   margin-bottom: 0.5rem;
@@ -416,9 +418,8 @@ textarea.box {
   min-height: 120px;
 }
 
-.send {
-  padding: 12px;
-  margin-top: 10px;
+.send, .back_home {
+  padding: 20px;
   background-color: #231f20;
   color: #ffffff;
   border: 1px solid gray;
@@ -427,37 +428,34 @@ textarea.box {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.4s ease;
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
 }
+
+button .send{
+  margin-top: 0;
+}
+
 .send:hover {
   background-color: #15fdc0;
   color: black;
   transform: translateY(-2px);
 }
 
-.back_home {
-  display: inline-flex;
-  align-items: center;
-  align-self: center;
-  gap: 8px;
-  padding: 10px 16px;
-  margin-top: 15px;
-  margin-bottom: 1.5rem;
-  color: #ffffff;
-  text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  font-family: "Lato", sans-serif;
-  font-size: 0.95rem;
-  transition: all 0.4s ease;
-}
 .back_home:hover {
   background-color: #15fdc0;
   color: #231f20;
   border-color: #15fdc0;
+  transform: translateY(-2px);
 }
+
+.back_home{
+  align-self: center;
+}
+
 .back_home i {
   font-size: 0.9rem;
 }
