@@ -367,6 +367,7 @@ main {
   justify-content: center;
   flex: 1;
   padding: 40px 20px;
+  margin-top: -200px;
   color: #ffffff;
   text-align: center;
 }
@@ -691,8 +692,11 @@ footer {
   .title_form {
     font-size: 1.5rem;
   }
-  .send {
+  .send + .back_home {
     font-size: 1rem;
+    align-self: center;
+    margin-top: 10px;
+    text-decoration: none;
   }
   .link_footer {
     gap: 12px;
@@ -716,30 +720,4 @@ footer {
   .social {
     z-index: 998;
   }
-
-  .back_home {
-  display: inline-flex !important;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  color: #ffffff !important;
-  text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  font-family: "Lato", sans-serif;
-  font-size: 0.95rem;
-  transition: all 0.4s ease;
-}
-
-.back_home:hover {
-  background-color: #15fdc0;
-  color: #231f20;
-  border-color: #15fdc0;
-}
-
-.back_home i {
-  font-size: 0.9rem;
-}
-}
+}/*# sourceMappingURL=global.css.map */
