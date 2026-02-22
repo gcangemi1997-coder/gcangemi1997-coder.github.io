@@ -556,16 +556,20 @@ a.cv {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 24px;
+  padding: 20px;
+  margin-bottom: 5px;
   background-color: #231f20;
   color: #ffffff;
   text-decoration: none;
+  cursor: pointer;
   border: 1px solid gray;
   border-radius: 10px;
   font-size: 1rem;
   font-weight: 600;
   font-family: "Lato", sans-serif;
   transition: all 0.4s ease;
+  width: 100%;
+  justify-content: center;
 }
 a.cv:hover {
   background-color: #15fdc0;
