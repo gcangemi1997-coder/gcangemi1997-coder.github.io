@@ -419,12 +419,12 @@ main {
 }
 
 .box::-moz-placeholder {
-  color: beige;
+  color: white;
   opacity: 1;
 }
 
 .box::placeholder {
-  color: beige;
+  color: white;
   opacity: 1;
 }
 
