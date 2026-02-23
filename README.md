@@ -35,13 +35,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-![Giorgio's GitHub Stats](https://github-readme-stats.vercel.app/api?username=gcangemi1997-coder&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gcangemi1997-coder&layout=compact&theme=tokyonight)
-
----
-
 ## 📫 Get in Touch
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOURPROFILE)
