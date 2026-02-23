@@ -1,48 +1,48 @@
 # Giorgio Cangemi's Personal Portfolio
 
-This repository contains the source code for my personal portfolio website. It is designed to showcase my skills, projects, and professional experience as a Full-Stack Web Developer. The website is built with HTML, SCSS, and JavaScript, and is hosted on GitHub Pages.
+# Hi, I'm Giorgio Cangemi 👋
 
-## View Live Site
+🌍 **Full-Stack Web Developer** from Palermo, Italy  
+📚 Currently training through **Start2impact**  
+🚀 Passionate about clean, responsive, and accessible interfaces
 
-**[https://gcangemi1997-coder.github.io/](https://gcangemi1997-coder.github.io/)**
+---
 
-## Features
+## 🛠️ Tech Stack
 
-*   **Responsive Design:** Fully responsive layout optimized for various devices, from mobile phones to desktops.
-*   **Multi-Page Structure:** The site includes a home page, a detailed resume page, and a contact form.
-*   **Project Showcase:** A dedicated section on the home page to display my work, with links to live project demos.
-*   **Modern UI:** A clean interface with a fixed sidebar for easy navigation and interactive elements.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## Technologies Used
+---
 
-*   **Frontend:** HTML5, CSS3, SCSS, JavaScript
-*   **Frameworks:** Bootstrap 5
-*   **Tooling:** Git & GitHub
+## 🌱 Currently Learning
 
-## Projects
+- React.js
+- Node.js & Express
+- Database fundamentals (SQL / MongoDB)
 
-This portfolio includes two key projects:
+---
 
-### 1. DnA Project
+## 📌 Featured Projects
 
-A modern, single-page website for a conceptual scientific communication initiative. It features a clean design built with HTML and inline CSS, focusing on a straightforward user experience.
+| Project | Description | Link |
+|---------|-------------|------|
+| **Portfolio** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/) |
 
-### 2. GreenEarth
+---
 
-An eco-themed landing page designed for a fictional environmental startup. This project demonstrates responsive design using Flexbox, CSS animations, and a structured layout to present the organization's mission and projects.
+## 📊 GitHub Stats
 
-## Getting Started
+![Giorgio's GitHub Stats](https://github-readme-stats.vercel.app/api?username=gcangemi1997-coder&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gcangemi1997-coder&layout=compact&theme=tokyonight)
 
-To run this project on your local machine:
+---
 
-1.  Clone the repository:
-    ```sh
-    git clone https://github.com/gcangemi1997-coder/gcangemi1997-coder.github.io.git
-    ```
-2.  Navigate to the project directory:
-    ```sh
-    cd gcangemi1997-coder.github.io
-    ```
-3.  Open the `index.html` file in your preferred web browser.
+## 📫 Get in Touch
 
-The main styles are written in SCSS and are located in `src/scss/global.scss`. If you wish to modify the styles, you will need a Sass compiler to transpile the `.scss` file into the final `dist/css/global.css` file.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOURPROFILE)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://gcangemi1997-coder.github.io/)
