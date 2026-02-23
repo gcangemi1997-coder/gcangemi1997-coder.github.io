@@ -1,7 +1,5 @@
 # Giorgio Cangemi's Personal Portfolio
 
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/gcangemi1997-coder/gcangemi1997-coder.github.io)
-
 This repository contains the source code for my personal portfolio website. It is designed to showcase my skills, projects, and professional experience as a Full-Stack Web Developer. The website is built with HTML, SCSS, and JavaScript, and is hosted on GitHub Pages.
 
 ## View Live Site
