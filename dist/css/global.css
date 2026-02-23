@@ -315,7 +315,7 @@ main {
 .img2 {
   width: 100%;
   height: 180px;
-  background-image: url("DnA.png");
+  background-image: url("assets/images/DnA.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -324,7 +324,7 @@ main {
 .img3 {
   width: 100%;
   height: 180px;
-  background-image: url("GreenEarth.png");
+  background-image: url("asstes/images/GreenEarth.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -407,7 +407,7 @@ main {
   border: 2px solid gray;
   border-radius: 6px;
   background-color: #1a1718;
-  color: #ffffff;
+  color: rgba(0, 0, 0, 0);
   font-family: "Lato", sans-serif;
   transition: all 0.3s ease;
 }
