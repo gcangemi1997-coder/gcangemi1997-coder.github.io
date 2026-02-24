@@ -32,8 +32,8 @@
 | Project | Description | Link |
 |---------|-------------|------|
 | **Portfolio** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/) |
-| **DnA page** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/Dna/index.html) |
-| **GreenEarth page** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/GreenEarth/index.html) |
+| **DnA page** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/Dna/) |
+| **GreenEarth page** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/Green/) |
 ---
 
 ## 📫 Get in Touch
