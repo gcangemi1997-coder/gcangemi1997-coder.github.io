@@ -92,10 +92,6 @@ header {
   color: black;
 }
 
-.link {
-  padding: 10px;
-}
-
 .hamburger {
   display: none;
   cursor: pointer;
