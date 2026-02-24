@@ -21,6 +21,7 @@
 
 ## 🌱 Currently Learning
 
+- Javascript
 - React.js
 - Node.js & Express
 - Database fundamentals (SQL / MongoDB)
@@ -31,9 +32,9 @@
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **Portfolio** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/) |
-| **DnA page** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/DnA/index.html) |
-| **GreenEarth page** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/Green/index.html) |
+| **Portfolio** | Responsive personal website built with HTML, CSS | [Live ↗](https://gcangemi1997-coder.github.io/) |
+| **DnA page** | Responsive personal website built with HTML, CSS | [Live ↗](https://gcangemi1997-coder.github.io/DnA/index.html) |
+| **GreenEarth page** | Responsive personal website built with HTML, CSS | [Live ↗](https://gcangemi1997-coder.github.io/Green/index.html) |
 ---
 
 ## 📫 Get in Touch
