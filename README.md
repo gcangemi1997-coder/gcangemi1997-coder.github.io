@@ -32,7 +32,10 @@
 | Project | Description | Link |
 |---------|-------------|------|
 | **Portfolio** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/) |
-
+|---------|-------------|------|
+| **Portfolio** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/) |
+|---------|-------------|------|
+| **Portfolio** | Responsive personal website built with HTML, CSS & JS | [Live ↗](https://gcangemi1997-coder.github.io/) |
 ---
 
 ## 📫 Get in Touch
