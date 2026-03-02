@@ -52,46 +52,6 @@ header {
   color: #15fdc0;
 }
 
-.social {
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  z-index: 997;
-}
-
-.social ul {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  gap: 7px;
-  transition: all 1s ease;
-}
-
-.social li:hover {
-  transform: scale(1.1);
-}
-
-.link {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  color: #ffffff;
-  text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-}
-
-.link:hover {
-  background-color: #15fdc0;
-  color: black;
-}
-
 .hamburger {
   display: none;
   cursor: pointer;
