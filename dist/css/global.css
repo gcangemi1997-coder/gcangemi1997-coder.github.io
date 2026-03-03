@@ -53,7 +53,6 @@ header {
 }
 
 .social {
-  display: none;
   position: absolute;
   right: 20px;
   top: 50%;
@@ -67,7 +66,6 @@ header {
 
 .social ul {
   display: flex;
-  display: none;
   justify-content: flex-end;
   list-style: none;
   gap: 7px;
@@ -75,13 +73,11 @@ header {
 }
 
 .social li:hover {
-  display: none;
   transform: scale(1.1);
 }
 
 .link {
   display: block;
-  display: none;
   padding: 10px;
   text-align: center;
   color: #ffffff;
@@ -92,18 +88,15 @@ header {
 }
 
 .link:hover {
-  display: none;
   background-color: #15fdc0;
   color: black;
 }
 
 .link {
-  display: none;
   padding: 10px;
 }
 
 .hamburger {
-  display: none;
   cursor: pointer;
   background: none;
   border: none;
@@ -628,6 +621,7 @@ footer {
     display: none;
   }
   .social {
+    display: none;
     position: static;
     transform: none;
     margin-top: 20px;
@@ -638,6 +632,7 @@ footer {
     justify-content: center;
   }
   .social ul {
+    display: none;
     max-height: 0;
     overflow: hidden;
     transition: all 0.4s ease-out;
@@ -646,11 +641,13 @@ footer {
     padding: 0;
   }
   #menu_toggle:checked ~ .social ul {
+    display: none;
     max-height: 300px;
     padding: 15px 10px;
     gap: 15px;
   }
   .hamburger {
+    display: none;
     display: block;
     margin: 0 auto;
   }
