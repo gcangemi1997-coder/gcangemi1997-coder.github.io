@@ -1,0 +1,50 @@
+
+.skill {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 15px;
+  font-size: large;
+}
+
+.skill {
+  color: #15fdc0;  /* override nella sezione resume */
+}
+
+.skills-section {
+  background-color: rgba(35, 31, 32, 0.75);
+  border-radius: 12px;
+  padding: 30px 20px;
+  margin: 0 auto 30px;
+  max-width: 960px;
+}
+
+.skill-badge {
+  background-color: #231f20;
+  border: 2px solid #15fdc0;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: #15fdc0;
+  color: #231f20;
+}
+
+.skill_tag {
+  background-color: #231f20;
+  border: 2px solid #15fdc0;
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  transition: all 0.3s ease;
+}
+
+.skill_tag:hover {
+  background-color: #15fdc0;
+  color: #231f20;
+}
