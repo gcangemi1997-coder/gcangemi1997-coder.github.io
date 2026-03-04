@@ -53,6 +53,7 @@ header {
 }
 
 .social {
+  display: none;
   position: absolute;
   right: 20px;
   top: 50%;
@@ -622,6 +623,7 @@ footer {
     display: none;
   }
   .social {
+    display: flex;
     position: static;
     transform: none;
     margin-top: 20px;
