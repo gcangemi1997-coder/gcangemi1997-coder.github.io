@@ -8,13 +8,12 @@
 
 This portfolio was designed and developed from scratch as both 
 a showcase and a learning project. Every design decision was 
-intentional — from the dark color scheme (#231f20 background, 
-#15fdc0 accent) to the modular SCSS architecture split into 
-partial files. The layout uses Flexbox throughout, with a fixed 
-sidebar on desktop that transforms into a CSS-only hamburger menu 
-on mobile. Semantic HTML5, ARIA attributes and Open Graph meta 
-tags were implemented to ensure accessibility and social sharing 
-compatibility.
+intentional — from the dark color scheme to the modular SCSS 
+architecture split into partial files. The layout uses Flexbox 
+throughout, with a fixed sidebar on desktop that transforms into 
+a CSS-only hamburger menu on mobile. Semantic HTML5, ARIA attributes
+and Open Graph meta tags were implemented to ensure accessibility and 
+social sharing compatibility.
 
 ---
 
