@@ -10,7 +10,7 @@ html {
 }
 
 .d_none {
-  display: none;
+  opacity: 0;
 }
 
 body {
