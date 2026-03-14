@@ -1,49 +1,52 @@
+@use '../abstracts' as *;
+
 .link {
   display: block;
   padding: 10px;
   text-align: center;
-  color: #ffffff;
+  color: $color-white;
   text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-}
+  border: 1px solid $color-gray;
+  border-radius: $radius-lg;
+  transition: $transition-medium;
 
-.link:hover {
-  background-color: #15fdc0;
-  color: black;
+  &:hover {
+    background-color: $color-accent;
+    color: $color-black;
+  }
 }
 
 .button {
   display: block;
   padding: 10px;
   text-align: center;
-  color: #ffffff;
+  color: $color-white;
   text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-  z-index: 997;
+  border: 1px solid $color-gray;
+  border-radius: $radius-lg;
+  transition: $transition-medium;
+  z-index: $z-cta;
   width: 200px;
   font-size: large;
-  background-color: #231f20;
+  background-color: $color-bg;
+
+  &:hover {
+    background-color: $color-accent;
+    color: $color-black;
+  }
 }
 
-.button:hover {
-  background-color: #15fdc0;
-  color: black;
-}
-
-.send, .back_home {
+.send,
+.back_home {
   padding: 20px;
-  background-color: #231f20;
-  color: #ffffff;
-  border: 1px solid gray;
-  border-radius: 10px;
+  background-color: $color-bg;
+  color: $color-white;
+  border: 1px solid $color-gray;
+  border-radius: $radius-lg;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.4s ease;
+  transition: $transition-medium;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -51,20 +54,23 @@
 }
 
 .send:hover {
-  background-color: #15fdc0;
-  color: black;
+  background-color: $color-accent;
+  color: $color-black;
   transform: translateY(-2px);
 }
 
-.back_home:hover {
-  background-color: #15fdc0;
-  color: #231f20;
-  border-color: #15fdc0;
-  transform: translateY(-2px);
-}
+.back_home {
+  align-self: center;
 
-.back_home { align-self: center; }
-.back_home i { font-size: 0.9rem; }
+  i { font-size: 0.9rem; }
+
+  &:hover {
+    background-color: $color-accent;
+    color: $color-bg;
+    border-color: $color-accent;
+    transform: translateY(-2px);
+  }
+}
 
 a.cv {
   display: inline-flex;
@@ -72,22 +78,22 @@ a.cv {
   gap: 8px;
   padding: 20px;
   margin-bottom: 5px;
-  background-color: #231f20;
-  color: #ffffff;
+  background-color: $color-bg;
+  color: $color-white;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid gray;
-  border-radius: 10px;
+  border: 1px solid $color-gray;
+  border-radius: $radius-lg;
   font-size: 1rem;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
-  transition: all 0.4s ease;
+  font-family: $font-body;
+  transition: $transition-medium;
   justify-content: center;
-}
 
-a.cv:hover {
-  background-color: #15fdc0;
-  color: black;
+  &:hover {
+    background-color: $color-accent;
+    color: $color-black;
+  }
 }
 
 .link_details {
@@ -96,14 +102,14 @@ a.cv:hover {
   margin: 10px;
   margin-top: auto;
   text-align: center;
-  color: #ffffff;
+  color: $color-white;
   text-decoration: none;
-  border: 1px solid gray;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-}
+  border: 1px solid $color-gray;
+  border-radius: $radius-lg;
+  transition: $transition-medium;
 
-.link_details:hover {
-  background-color: #15fdc0;
-  color: black;
+  &:hover {
+    background-color: $color-accent;
+    color: $color-black;
+  }
 }
