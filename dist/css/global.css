@@ -95,7 +95,7 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-.sidebar {
+.sidebar__nav {
   position: fixed;
   left: 0;
   top: 0;
@@ -108,14 +108,14 @@ header {
   overflow-y: auto;
 }
 
-.sidebar_nav ul {
+.sidebar__nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.sidebar_nav li a {
+.sidebar__nav li a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,15 +128,15 @@ header {
   text-align: center;
   transition: all 0.3s ease;
 }
-.sidebar_nav li a:hover {
+.sidebar__nav li a:hover {
   background-color: #15fdc0;
   color: #231f20;
 }
-.sidebar_nav li a:hover i {
+.sidebar__nav li a:hover i {
   color: #231f20;
   transform: rotate(5deg) scale(1.15);
 }
-.sidebar_nav li a i {
+.sidebar__nav li a i {
   font-size: 1.5rem;
   color: #15fdc0;
   transition: all 0.3s ease;
@@ -316,7 +316,7 @@ footer {
   padding: 10px 0;
 }
 
-.img2, .img3, .img4 {
+.project-card__img, .img4 {
   width: 100%;
   height: 180px;
   background-size: cover;
