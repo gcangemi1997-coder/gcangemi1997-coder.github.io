@@ -250,7 +250,7 @@ footer {
   max-width: 960px;
 }
 
-.skill-badge {
+.hero__skill-badge {
   background-color: #231f20;
   border: 2px solid #15fdc0;
   color: #ffffff;
@@ -260,7 +260,7 @@ footer {
   font-size: 0.9rem;
   transition: all 0.3s ease;
 }
-.skill-badge:hover {
+.hero__skill-badge:hover {
   background-color: #15fdc0;
   color: #231f20;
 }
