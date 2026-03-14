@@ -1,50 +1,51 @@
+@use '../abstracts' as *;
 
 .skill {
   text-align: center;
-  color: #ffffff;
+  color: $color-white;
   padding-bottom: 15px;
   font-size: large;
-}
 
-.skill {
-  color: #15fdc0;  /* override nella sezione resume */
+  &--accent {
+    color: $color-accent;
+  }
 }
 
 .skills-section {
-  background-color: rgba(35, 31, 32, 0.75);
-  border-radius: 12px;
+  background-color: rgba($color-bg, 0.75);
+  border-radius: $radius-xl;
   padding: 30px 20px;
   margin: 0 auto 30px;
   max-width: 960px;
 }
 
 .skill-badge {
-  background-color: #231f20;
-  border: 2px solid #15fdc0;
-  color: #ffffff;
-  border-radius: 8px;
+  background-color: $color-bg;
+  border: 2px solid $color-accent;
+  color: $color-white;
+  border-radius: $radius-md;
   padding: 10px;
   text-align: center;
   font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
+  transition: $transition-fast;
 
-.skill-badge:hover {
-  background-color: #15fdc0;
-  color: #231f20;
+  &:hover {
+    background-color: $color-accent;
+    color: $color-bg;
+  }
 }
 
 .skill_tag {
-  background-color: #231f20;
-  border: 2px solid #15fdc0;
-  color: #ffffff;
+  background-color: $color-bg;
+  border: 2px solid $color-accent;
+  color: $color-white;
   padding: 6px 14px;
-  border-radius: 20px;
+  border-radius: $radius-pill;
   font-size: 0.88rem;
-  transition: all 0.3s ease;
-}
+  transition: $transition-fast;
 
-.skill_tag:hover {
-  background-color: #15fdc0;
-  color: #231f20;
+  &:hover {
+    background-color: $color-accent;
+    color: $color-bg;
+  }
 }
