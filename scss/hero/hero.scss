@@ -1,3 +1,6 @@
+
+@use '../abstracts' as *;
+
 .hero {
   flex: 1;
   width: 100%;
@@ -20,14 +23,14 @@
 }
 
 .bio_section {
-  background-color: rgba(35, 31, 32, 0.75);
-  border-radius: 12px;
+  background-color: rgba($color-bg, 0.75);
+  border-radius: $radius-xl;
   margin: 30px auto;
   max-width: 860px;
   width: 100%;
 }
 
-.bio-title { font-family: "Montserrat", sans-serif; }
+.bio-title { font-family: $font-heading; }
 .bio-text {
   font-size: 1.05rem;
   line-height: 1.7;
