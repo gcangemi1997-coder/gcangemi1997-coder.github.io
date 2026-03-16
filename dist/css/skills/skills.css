@@ -6,7 +6,7 @@
 }
 
 .skill {
-  color: #15fdc0; /* override nella sezione resume */
+  color: #15fdc0;
 }
 
 .skills-section {
@@ -46,4 +46,4 @@
 .skill_tag:hover {
   background-color: #15fdc0;
   color: #231f20;
-}/*# sourceMappingURL=skill.css.map */
+}
