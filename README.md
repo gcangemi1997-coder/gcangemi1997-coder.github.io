@@ -33,7 +33,7 @@ fully responsive layout and accessibility best practices.
 ---
 
 ## 📁 Project Structure
-
+```
 gcangemi1997-coder.github.io/
 │
 ├── assets/
@@ -60,6 +60,7 @@ gcangemi1997-coder.github.io/
 ├── resume.html
 ├── site.webmanifest
 └── README.md
+```
 
 ---
 
