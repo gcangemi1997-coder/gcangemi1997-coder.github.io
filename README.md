@@ -32,6 +32,37 @@ fully responsive layout and accessibility best practices.
 
 ---
 
+## 📁 Project Structure
+
+gcangemi1997-coder.github.io/
+│
+├── assets/
+│   ├── icon/
+│   ├── images/
+│   └── resume.pdf
+│
+├── dist/
+│   └── css/
+│       └── global.css
+│
+├── scss/
+│   ├── abstracts/
+│   ├── base/
+│   ├── button/
+│   ├── cards/
+│   ├── hero/
+│   ├── layout/
+│   ├── skills/
+│   └── global.scss
+│
+├── index.html
+├── contact.html
+├── resume.html
+├── site.webmanifest
+└── README.md
+
+---
+
 ## 📌 Featured Projects
 
 | Project | Description | Link |
